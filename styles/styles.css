@@ -1,33 +1,33 @@
 @font-face{
 	font-family:"DINPro-Regular";
-	src: url("/fonts/DINPro-Regular.otf");
+	src: url("../fonts/DINPro-Regular.otf");
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: "Lobster Two";
-	src: url("/fonts/LobsterTwo-Italic.ttf");
+	src: url("../fonts/LobsterTwo-Italic.ttf");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: "HelveticaNeueLT Std Med Cn";
-	src: url("/fonts/HelveticaNeueLTStd-MdCn.otf");
+	src: url("../fonts/HelveticaNeueLTStd-MdCn.otf");
 	font-weight: normal;
 	font-style: normal;
 }
 
 body {
-	background-image: url("/images/full-bg.png");
+	background-image: url("../images/full-bg.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
 
 h1 {
-	background: url("/images/header.png") repeat;
+	background: url("../images/header.png") repeat;
 	width: 100%;
 	height: 83px;
 	line-height: 83px;
@@ -76,7 +76,7 @@ h3 {
 
 div.bubble {
 	color: #AEDCCF;
-	background-image: url("/images/circle-sprite.png");
+	background-image: url("../images/circle-sprite.png");
 	width: 254px;
 	height: 254px;
 	position: absolute;
@@ -89,7 +89,7 @@ div.what {
 }
 
 div.how {
-	background-image: url("/images/circle-sprite-bigger.png");
+	background-image: url("../images/circle-sprite-bigger.png");
 	width: 267px;
 	height: 267px;
 	left: 376px;
@@ -103,7 +103,7 @@ div.prize {
 }
 
 div.twitter {
-    background-image: url("/images/circle-sprite-smaller.png");
+    background-image: url("../images/circle-sprite-smaller.png");
 	left: 696px;
 	top: 110px;
 	z-index: 20;
