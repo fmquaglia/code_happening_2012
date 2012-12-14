@@ -1,5 +1,5 @@
-<YOUR_APPLICATION_NAME>
-======================
+_YOUR_APPLICATION_NAME_
+=======================
 
 This is a sample file you can edit to tell us more about your app and yourself. We encourage you to do so!. <You can just remove this lines or replace them with a proper "welcome" text> 
 
