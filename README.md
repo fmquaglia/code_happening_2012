@@ -26,6 +26,8 @@ You have time until **Thusday Dec. 20th EOD Pacific Time** to publish your work.
 
 You can use any tech you want, as long as it can run as a web page. Client-side only with HTML5 and CSS3, any javascript library, server side with Ruby, Java, Python, PHP, Node.js.... you name it. The only requirement is that it must run on a single page on a single URL.
 
+We care about *cross-browser compatibility* for modern, standard-compatible browsers (specially Firefox, Chrome and Safari). We don't care too much about IE on this particular case.
+
 Your deliverable must have:
 
 - A standard README.md file with clear and comprehesive instructions that allow us to deploy the app. Please remeber to mention any 3rd party library you are using and, if needed, how to get them. We strongly encourage you to use **open source libraries only**.
