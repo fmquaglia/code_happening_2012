@@ -1,0 +1,167 @@
+@font-face{
+	font-family:"DINPro-Regular";
+	src: url("/fonts/DINPro-Regular.otf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Lobster Two";
+	src: url("/fonts/LobsterTwo-Italic.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "HelveticaNeueLT Std Med Cn";
+	src: url("/fonts/HelveticaNeueLTStd-MdCn.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-image: url("/images/full-bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+h1 {
+	background: url("/images/header.png") repeat;
+	width: 100%;
+	height: 83px;
+	line-height: 83px;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 1.8em;
+	font-family: "DINPro-Regular";	
+}
+
+#subheader {
+	margin-right: 50px;
+}
+
+h1 img {
+	float: left;
+	padding-left: 75px;
+	margin-top: 10px;
+}
+
+h1 span.year {
+	color: white;
+}
+
+h1 span.code {
+	color: #AEDCCF;
+}
+
+h1 span.happening {
+	color: #F9A11B;
+}
+
+h3 {
+	font-family: "DINPro-Regular";
+	color: #ABABAB;
+	font-size: 1.4em;
+	margin-top: 50px;
+}
+
+#mainContainer {
+	width: 960px;
+	margin: auto;
+	position: relative;
+	padding:  0 40px;
+}
+
+div.bubble {
+	color: #AEDCCF;
+	background-image: url("/images/circle-sprite.png");
+	width: 254px;
+	height: 254px;
+	position: absolute;
+	z-index: 10;
+}
+
+div.what {
+	top: 0;
+	left: 236px;
+}
+
+div.how {
+	background-image: url("/images/circle-sprite-bigger.png");
+	width: 267px;
+	height: 267px;
+	left: 376px;
+	top: 100px;
+	z-index: 0;
+}
+
+div.prize {
+	left: 544px;
+	top: 26px;
+}
+
+div.twitter {
+    background-image: url("/images/circle-sprite-smaller.png");
+	left: 696px;
+	top: 110px;
+	z-index: 20;
+	width: 241px;
+	height: 241px;
+
+}
+
+div.bubble:hover {
+	background-position: 254px;
+	color: white;
+	cursor: pointer;
+}
+
+div.how:hover {
+	background-position: 267px;
+}
+
+div.twitter:hover {
+	background-position: 241px;	
+}
+
+div.bubble .container {
+	height: 75%;
+	width: 75%;
+	margin: auto;
+	padding-top: 21%;
+	text-align: center;
+	font-family: "HelveticaNeueLT Std Med Cn";
+	font-size: 0.825em;
+	line-height: 1.2em;
+}
+
+div.bubble h4 {
+	font-family: "Lobster Two";
+	color: #F9A11B;
+	font-size: 1.6em;
+	margin-bottom: 10px;
+	line-height: 1.1em;
+}
+
+div.bubble:hover h4 {
+	color: #254F43;
+}
+
+div.bubble strong {
+	color: #F9A11B;
+	text-decoration: none;
+}
+
+div.bubble:hover strong {
+	color: #254F43;
+}
+
+#mainContainer img {
+	margin-left: -39px	;
+}
+
+#githubRibbon {
+	position: absolute; bottom:0; right:0; border: 0;
+}
