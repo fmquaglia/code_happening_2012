@@ -1,0 +1,15 @@
+---
+chdir: /home/fmquaglia/webapps/code_happening_2012/
+environment: production
+address: 127.0.0.1
+port: 16879
+timeout: 30
+log: /home/fmquaglia/webapps/code_happening_2012/log/thin.log
+pid: /home/fmquaglia/webapps/code_happening_2012/tmp/pids/thin.16879.pid
+max_conns: 1024
+max_persistent_conns: 512
+require: []
+rackup: /home/fmquaglia/webapps/code_happening_2012/config.ru
+wait: 30
+servers: 1
+daemonize: true
