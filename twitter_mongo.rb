@@ -4,7 +4,7 @@ require 'twitter'
 class TwitterMongo
   def initialize(tag)
     setup_twitter
-    connection = Mongo::Connection.from_uri ENV['LOVE_MONGO']
+    connection = Mongo::Connection.from_uri ENV['MONGO_URI']
     db         = connection[DATABASE_NAME]
     @tweets    = db[COLLECTION_NAME]
 

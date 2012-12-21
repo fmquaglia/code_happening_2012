@@ -11,7 +11,7 @@ configure do
   require           "mongo"
   require_relative "twitter_mongo"
 
-  connection = Mongo::Connection.from_uri ENV['LOVE_MONGO']
+  connection = Mongo::Connection.from_uri ENV['MONGO_URI']
   DATABASE = connection[DATABASE_NAME]
   TWEETS    = DATABASE[COLLECTION_NAME]
 
