@@ -19,9 +19,8 @@
           %b Firefox
           browser.
       #impress
-        - counter = 1
         - @tweets.each do |tweet|
-          .step{ 'data-z'=> counter*rand(100), 'data-rotate-y' => counter*rand(-100),  'data-rotate-x' => counter*rand(-90)}
+          .step{ 'data-z'=> rand(100), 'data-rotate-y' => rand(-100),  'data-rotate-x' => rand(-90)}
             %h2= tweet['text']
             %p
               - unless tweet['user']['protected']

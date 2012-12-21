@@ -11,8 +11,9 @@ configure do
   require           "mongo"
   require_relative "twitter_mongo"
 
-  DATABASE  = Mongo::Connection.new('127.0.0.1','12863')[DATABASE_NAME]
-  TWEETS    = DATABASE[COLLECTION_NAME]
+  connection = Mongo::Connection.from_uri ENV['LOVE_MONGO']
+  database = connection[DATABASE_NAME]
+  TWEETS    = database[COLLECTION_NAME]
 
   Compass.configuration do |config|
     config.project_path = File.dirname(__FILE__)
