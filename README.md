@@ -1,7 +1,7 @@
 End of the World Hay Stanzas in Fire
 ====================================
 
-This is a visual and textual random generator based on a Twitter scrapper, made as a desperate attempt to be part of the Code Happening 2012 organized by scvsoft
+This is a visual and textual random generator based on a Twitter scrapper, made as a desperate attempt to be part of the Code Happening 2012 organized by [scvsoft](https://github.com/scvsoft)
 
 ## Required software
 
@@ -26,7 +26,7 @@ This is a visual and textual random generator based on a Twitter scrapper, made 
 
 ## Notes
 
-A demo is available here http://www.welovetocode.com.ar/
+A demo is available [here](http://www.welovetocode.com.ar/)
 
-Thanks to bartaz for his library impress.js. It is great and he writes source code in way that helps you to learn a lot from him.
+Thanks to [bartaz](https://github.com/bartaz) for his library impress.js. It is great and he writes source code in way that helps you to learn a lot from him.
 Also I thank to Kyle Banker, author of MongoDB in Action, who inspired this app.
