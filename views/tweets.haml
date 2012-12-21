@@ -28,7 +28,7 @@
             %br/
             I don't see fire. I see beauty.
         - @tweets.each do |tweet|
-          .step{ 'data-z'=> rand(100), 'data-rotate-y' => rand(-100),  'data-rotate-x' => rand(-90)}
+          .step{ 'data-z'=> rand(1000), 'data-rotate-y' => rand(-1000),  'data-rotate-x' => rand(-90)}
             %h2= tweet['text']
             %p
               - unless tweet['user']['protected']
