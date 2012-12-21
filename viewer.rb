@@ -11,7 +11,7 @@ configure do
   require           "mongo"
   require_relative "twitter_mongo"
 
-  DATABASE  = Mongo::Connection.new[DATABASE_NAME]
+  DATABASE  = Mongo::Connection.new('127.0.0.1','12863')[DATABASE_NAME]
   TWEETS    = DATABASE[COLLECTION_NAME]
 
   Compass.configuration do |config|
