@@ -5,6 +5,10 @@ End of the World Hay Stanzas in Fire
 
 This is a visual and textual random generator based on a Twitter scrapper, made as a desperate attempt to be part of the Code Happening 2012 organized by scvsoft
 
+Voices on the internet (particularly Twitter) are brittle like dry hay leaves.
+The fear or the faith (which are the opposite ends of the same thing) set on fire such voices.
+Which I see is a colossal poem of fire.
+
 
 ## About the author
 
