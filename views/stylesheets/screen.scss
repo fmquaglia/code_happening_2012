@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Cantata+One);
+@import url(http://fonts.googleapis.com/css?family=Finger+Paint);
 
 
 // Eric Meyer's reset
@@ -132,6 +133,7 @@ a {
   font-size: 18px;
   line-height: 1.5;
   h2 {
+    font-family: 'Finger Paint', cursive;
     font-size: 28px;
   }
 }
