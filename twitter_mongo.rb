@@ -5,7 +5,7 @@ class TwitterMongo
   def initialize(tag)
     setup_twitter
 
-    connection = Mongo::Connection.new
+    connection = Mongo::Connection.new('127.0.0.1','12863')
     db         = connection[DATABASE_NAME]
     @tweets    = db[COLLECTION_NAME]
 

@@ -1,5 +1,5 @@
-SCVSoft's 2012 Code Happening
-=============================
+End of the world hays in the wind
+=================================
 
 SCV Soft invites you to join their 2012 Code Happening. It's fun, it's easy, and you may win a cool prize.
 
