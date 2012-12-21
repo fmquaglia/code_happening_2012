@@ -1,13 +1,14 @@
-_YOUR_APPLICATION_NAME_
-=======================
-
-This is a sample file you can edit to tell us more about your app and yourself. We encourage you to do so!. _You can just remove this lines or replace them with a proper "welcome" text_ 
+End of the World Hay Stanzas in Fire
+====================================
 
 ## About the application
 
-_add a simple description or your app, what does it do, which libraries uses, or any other thing you consider interesting to share_
+This is a visual and textual random generator based on a Twitter scrapper, made as a desperate attempt to be part of the Code Happening 2012 organized by scvsoft
+
 
 ## About the author
 
-_tell us a little bit about yourself, what do you do, what do you like, whatever you want to share_
-
+I've been obsessed by the automatic poetry generation.
+A smart enough application could surf the internet, extracting bits and pieces here and there to compose a writing.
+May be not a masterpiece, but certainly a reflexion of the _zeitgeist_.
+This is a _late_ and humble attempt to give a step further onto that direction.
