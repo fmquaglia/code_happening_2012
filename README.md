@@ -23,3 +23,10 @@ This is a visual and textual random generator based on a Twitter scrapper, made 
   1. Then the fun begins
   1. you may wipe the stored data by going to http://localhost:3000/clean
   1. you also may load more data going to http://localhost:3000/update
+
+## Notes
+
+A demo is available here http://www.welovetocode.com.ar/
+
+Thanks to bartaz for his library impress.js. It is great and he writes source code in way that helps you to learn a lot from him.
+Also I thank to Kyle Banker, author of MongoDB in Action, who inspired this app.
