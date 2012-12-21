@@ -12,7 +12,7 @@ configure do
   require_relative "twitter_mongo"
 
   connection = Mongo::Connection.from_uri ENV['LOVE_MONGO']
-  database = connection[DATABASE_NAME]
+  @database = connection[DATABASE_NAME]
   TWEETS    = database[COLLECTION_NAME]
 
   Compass.configuration do |config|
@@ -31,7 +31,7 @@ get '/' do
 end
 
 get '/clean' do
-  DATABASE.drop_collection COLLECTION_NAME
+  @database.drop_collection COLLECTION_NAME
   redirect '/'
 end
 
