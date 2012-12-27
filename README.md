@@ -16,7 +16,7 @@ This is a visual and textual random generator based on a Twitter scrapper, made 
   1. cd to the app's directory with the console to create the gemset
   1. ```bundle install```
   1. edit the ```config/config.yml``` accordingly (you may use my twitter keys if you want)
-  1. Run the web app's server with ```thin start``` (for production settings fill ```config/thin.yml``` with the appropriate values for your production environment and run ```thin start -C config/thin.yml´´´)
+  1. Run the web app's server with ```thin start``` (for production settings fill ```config/thin.yml``` with the appropriate values for your production environment and run ```thin start -C config/thin.yml``)
   1. Open the app on http://localhost:3000 (the MongoDB daemon should be already running)
 
 ## First steps
