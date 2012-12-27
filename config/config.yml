@@ -1,29 +1,43 @@
 development:
   mongo:
-    host: '127.0.0.1'
-    port: '27017'
-    user: 'developer'
-    password: 'changeme'
+    host: 127.0.0.1
+    port: 27017
+    user: developer
+    password: changeme
     auth: false
-    database: 'twitter_mongo'
-    collection: 'twitter_mongo'
+    database: twitter_mongo
+    collection: twitter_mongo
   twitter:
-    consumer_key: 'XjFi0zpdwJDTC7KXxH0uw'
-    consumer_secret: 'YncoEtzmysEGgAmQGFeWNvwWq5TLw5kfupm40MyMTyY'
-    oauth_token: '167979837-72hzqnwaOTHIRjT7I93rJXo26l3msTHoWBpwIo5c'
-    oauth_token_secret: '1L7igjyxsCgRP0O3AsU0WZvlKxemzfK0sFlKYzNNCs'
+    consumer_key: XjFi0zpdwJDTC7KXxH0uw
+    consumer_secret: YncoEtzmysEGgAmQGFeWNvwWq5TLw5kfupm40MyMTyY
+    oauth_token: 167979837-72hzqnwaOTHIRjT7I93rJXo26l3msTHoWBpwIo5c
+    oauth_token_secret: 1L7igjyxsCgRP0O3AsU0WZvlKxemzfK0sFlKYzNNCs
+    tags:
+      - 12-21-2012
+      - mayacalendar
+      - december212012
+      - endoftheworld
+      - 2012endoftheworld
+      - worldends
 
 production:
   mongo:
-    host: '127.0.0.1'
-    port: '27017'
-    user: 'developer'
-    password: 'changeme'
-    auth: false
-    database: 'twitter_mongo'
-    collection: 'twitter_mongo'
+    host: 127.0.0.1
+    port: 27017
+    user: root
+    password: password
+    auth: true
+    database: twitter_mongo
+    collection: twitter_mongo
   twitter:
-    consumer_key: 'XjFi0zpdwJDTC7KXxH0uw'
-    consumer_secret: 'YncoEtzmysEGgAmQGFeWNvwWq5TLw5kfupm40MyMTyY'
-    oauth_token: '167979837-72hzqnwaOTHIRjT7I93rJXo26l3msTHoWBpwIo5c'
-    oauth_token_secret: '1L7igjyxsCgRP0O3AsU0WZvlKxemzfK0sFlKYzNNCs'
+    consumer_key: XjFi0zpdwJDTC7KXxH0uw
+    consumer_secret: YncoEtzmysEGgAmQGFeWNvwWq5TLw5kfupm40MyMTyY
+    oauth_token: 167979837-72hzqnwaOTHIRjT7I93rJXo26l3msTHoWBpwIo5c
+    oauth_token_secret: 1L7igjyxsCgRP0O3AsU0WZvlKxemzfK0sFlKYzNNCs
+    tags:
+      - 12-21-2012
+      - mayacalendar
+      - december212012
+      - endoftheworld
+      - 2012endoftheworld
+      - worldends
