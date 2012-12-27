@@ -1,4 +1,4 @@
-End of the World Hay Stanzas in Fire
+End of the World Hay Stanzas on Fire
 ====================================
 
 ## About the application
