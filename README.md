@@ -8,14 +8,16 @@ This is a visual and textual random generator based on a Twitter scrapper, made 
   1. RVM
   1. MongoDB
   1. A decent browser, webkit preferably
+  1. ...lots of memory :-)
 
 ## How to run
 
   1. Clone
   1. cd to the app's directory with the console to create the gemset
-  1. run ```bundle install```
+  1. ```bundle install```
+  1. edit the ```config/config.yml``` accordingly (you may use my twitter keys if you want)
   1. Run the web app's server with ```thin start```
-  1. Open the app on http://localhost:3000 (the MongoDB daemon should be running)
+  1. Open the app on http://localhost:3000 (the MongoDB daemon should be already running)
 
 ## First steps
 
