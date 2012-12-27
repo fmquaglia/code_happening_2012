@@ -3,7 +3,7 @@ Code Happening 2012
 
 This is a visual and textual random generator based on a Twitter scrapper, made as a desperate attempt to be part of the Code Happening 2012 organized by [scvsoft](https://github.com/scvsoft)
 
-## Required software
+## Required software (and hardware)
 
   1. RVM
   1. MongoDB
