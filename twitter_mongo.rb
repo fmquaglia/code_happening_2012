@@ -5,8 +5,8 @@ class TwitterMongo
   def initialize(tag)
     setup_twitter
     connection = Mongo::Connection.from_uri ENV['MONGO_URI']
-    db         = connection[DATABASE_NAME]
-    @tweets    = db[COLLECTION_NAME]
+    db         = connection[CONFIG['mongo']['database']]
+    @tweets    = db[CONFIG['mongo']['collection']]
 
     @tweets.create_index([['id', 1]], :unique => true)
     @tweets.create_index([['tags', 1], ['id', -1]])

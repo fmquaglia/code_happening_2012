@@ -29,7 +29,9 @@
             I don't see fire. I see beauty.
         - @tweets.each do |tweet|
           .step{ 'data-z'=> rand(1000), 'data-rotate-y' => rand(-1000),  'data-rotate-x' => rand(-90)}
-            %h2= tweet['text']
+            %h2
+              :erb
+                <%= tweet['text'].gsub(/(http[s]?:[\w\/\.]*)/, '<a href="\1">\1</a>') %>
             %p
               - unless tweet['user']['protected']
                 %a.who{href:"http://twitter.com/#{tweet['user']['screen_name']}"}= tweet['user']['screen_name']

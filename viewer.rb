@@ -7,13 +7,13 @@ require 'sass'
 
 
 configure do
-  require_relative "config"
+  require_relative "config/bootstrap"
   require           "mongo"
   require_relative "twitter_mongo"
 
   connection = Mongo::Connection.from_uri ENV['MONGO_URI']
-  DATABASE = connection[DATABASE_NAME]
-  TWEETS    = DATABASE[COLLECTION_NAME]
+  DATABASE = connection[CONFIG['mongo']['database']]
+  TWEETS    = DATABASE[CONFIG['mongo']['collection']]
 
   Compass.configuration do |config|
     config.project_path = File.dirname(__FILE__)
@@ -31,12 +31,12 @@ get '/' do
 end
 
 get '/clean' do
-  DATABASE.drop_collection COLLECTION_NAME
+  DATABASE.drop_collection CONFIG['mongo']['collection']
   redirect '/'
 end
 
 get '/update' do
-  TAGS.each do |tag|
+  CONFIG['twitter']['tags'].each do |tag|
     archive = TwitterMongo.new(tag)
     archive.update
   end
