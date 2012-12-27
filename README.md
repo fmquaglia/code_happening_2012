@@ -30,5 +30,6 @@ This is a visual and textual random generator based on a Twitter scrapper, made 
 
 A demo is available [here](http://www.welovetocode.com.ar/)
 
-Thanks to [bartaz](https://github.com/bartaz) for his library impress.js. It is great and he writes source code in way that helps you to learn a lot from him.
-Also I thank to Kyle Banker, author of MongoDB in Action, who inspired this app.
+Thanks to [bartaz](https://github.com/bartaz) for his library impress.js. It is great library which is a reflection of his author, he writes source code in way that helps you to learn a lot from him.
+
+Also thanks to _Kyle Banker_, author of _MongoDB in Action_, who inspired this app.
